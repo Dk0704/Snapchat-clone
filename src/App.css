@@ -1,39 +1,27 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+.app{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #fefc01;
+  height: 100vh;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.background{
+  background-color: white;
+  height: 400px;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.body{
+  background: url("https://www.seekpng.com/png/full/29-296441_flyvpn-android-download-mobile-frame-png-transparent.png") no-repeat center;
+  background-size: contain;
+  height: 430px;
+  width: 250px;
+  padding-top: 40px ;
+  padding-bottom: 40px ;
+  padding-left: 15px ;
+  padding-right:  15px;
+  /* border: 10px solid yellow; */
+
+  /* border-radius: 45px ; */
 }

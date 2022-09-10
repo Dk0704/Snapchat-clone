@@ -1,0 +1,22 @@
+.webcam{
+    position: relative;
+}
+
+.webcam_button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    font-size: 60px !important;
+}
+
+.closeCam{
+    position: absolute;
+    top: 0;
+    margin: 5px;
+    cursor: pointer !important;
+    color: black;
+    z-index: 99;
+}
